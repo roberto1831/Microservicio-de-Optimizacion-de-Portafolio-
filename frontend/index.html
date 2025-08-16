@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Optimizador de Portafolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Examen Final Arquitectura de Software</h1>
+    <h1>Optimizador de Portafolio</h1>
+    <section class="card">
+      <h2>Entrada</h2>
+      <div class="field">
+        <label for="capacidad">Capacidad (presupuesto total)</label>
+        <input id="capacidad" type="number" min="0" step="1" value="10000" />
+      </div>
+
+      <h3>Proyectos</h3>
+      <table id="tabla-proyectos">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Costo (peso)</th>
+            <th>Ganancia</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="proyectos-body"></tbody>
+      </table>
+      <div class="actions">
+        <button id="add-row">Agregar proyecto</button>
+        <button id="limpiar">Limpiar</button>
+        <button id="calcular">Calcular</button>
+      </div>
+    </section>
+
+    <section class="card" id="resultado-card" hidden>
+      <h2>Resultados</h2>
+      <div id="resultados"></div>
+    </section>
+
+    <section class="card" id="error-card" hidden>
+      <h2>Error</h2>
+      <pre id="error-text"></pre>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

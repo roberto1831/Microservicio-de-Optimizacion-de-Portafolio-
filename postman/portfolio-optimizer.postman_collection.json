@@ -1,0 +1,27 @@
+{
+  "info": {
+    "name": "Portfolio Optimizer API",
+    "_postman_id": "c7e0e9e4-0000-4000-8000-optimizer",
+    "description": "Colección para probar el endpoint /optimizar",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "POST /optimizar",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"capacidad\": 10000,\n  \"objetos\": [\n    {\n      \"nombre\": \"Fondo_A\",\n      \"peso\": 2000,\n      \"ganancia\": 1500\n    },\n    {\n      \"nombre\": \"Fondo_B\",\n      \"peso\": 4000,\n      \"ganancia\": 3500\n    },\n    {\n      \"nombre\": \"Fondo_C\",\n      \"peso\": 5000,\n      \"ganancia\": 4000\n    },\n    {\n      \"nombre\": \"Fondo_D\",\n      \"peso\": 3000,\n      \"ganancia\": 2500\n    },\n    {\n      \"nombre\": \"Fondo_E\",\n      \"peso\": 1500,\n      \"ganancia\": 1800\n    }\n  ]\n}"
+        }
+      },
+      "response": []
+    }
+  ]
+}
