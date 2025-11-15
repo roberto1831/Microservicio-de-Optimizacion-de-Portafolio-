@@ -1,6 +1,6 @@
 # Microservicio de Optimización de Portafolio (Knapsack 0/1)
 
-Implementacion el enunciado del **Examen Final - Arquitectura de Software**: microservicio con endpoint `POST /optimizar` que, dado un presupuesto (`capacidad`) y una lista de proyectos (peso/costo y ganancia), devuelve la combinación óptima que **maximiza la ganancia sin exceder el presupuesto**.
+Implementacion el enunciado del **Arquitectura de Software**: microservicio con endpoint `POST /optimizar` que, dado un presupuesto (`capacidad`) y una lista de proyectos (peso/costo y ganancia), devuelve la combinación óptima que **maximiza la ganancia sin exceder el presupuesto**.
 
 ## 📁 Estructura
 ```
